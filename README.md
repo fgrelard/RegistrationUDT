@@ -1,7 +1,7 @@
 # RegistrationUDT
 
 Description
-===========
+-----------
 
 This code runs the updated distance transformation (UDT) similarity metric for variational registration. Our similarity metric is particular for multimodal workflows. In particular, it solves the problem of images with discrepant distributions. It yields precisely registered images, while still limiting spurious deformations in the object. 
 
@@ -12,7 +12,7 @@ The algorithm is implemented thanks to the [ITK Library](https://itk.org/)
 
 
 Quick Build Instructions
-========================
+------------------------
 The main instructions on linux/unix-based systems are the following:
 
 ```shell
@@ -32,7 +32,7 @@ Note: Our code has been compiled and tested on Unix distributions 18.04 and 20.0
 
 
 Usage
-========================
+------------------------
 The executable is located in the `build` directory. 
 It provides a self-contained description on how to use them, available with the option -h.
 
@@ -48,11 +48,15 @@ Details:
 
 
 Data
-========================
+------------------------
 Any ITK image format is accepted as input. See [here](https://itk.org/Wiki/ITK/File_Formats) for more information.
 
+Copyright
+------------------------
+This code is distributed under the Apache License 2.0. See [LICENSE](https://github.com/fgrelard/RegistrationUDT/blob/main/LICENSE) for more details.
+
 Questions
-========================
+------------------------
 Contact at florent [dot] grelard [at] gmail [dot] com
 
 [1] Modersitzki, J.: Fair: Flexible Algorithms for Image Registration. Society for Industrial and Applied Mathematics, Philadelphia, PA, USA (2009)

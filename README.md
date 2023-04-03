@@ -27,6 +27,7 @@ Minimum system requirements: C++11 enabled compiler, [cmake](http://cmake.org), 
 * ITK_BUILD_DEFAULT_MODULES
 * Module_VariationalRegistration
 * Optional: ITK_USE_FFTWD for elastic regularization
+
 Note: Our code has been compiled and tested on Unix distributions 18.04 and 20.04.
 
 
